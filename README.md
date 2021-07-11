@@ -24,39 +24,6 @@ Microsoft Teams clone is the challenge given to us in the microsoft engage 2021.
 - Chat feature during meeting
 - Participant list
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/yr7000/Microsoft-Teams.git
-```
-
-Go to the project directory
-
-```bash
-  cd Microsoft-Teams
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  node server
-```
-
-Open new terminal in same directory and Start the client
-
-```bash
-  cd client
-  npm start
-```
-
 ## Backend
 
 - #### Server used : [Express JS](https://expressjs.com/)
