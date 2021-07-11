@@ -26,7 +26,7 @@ let dataChannel = null;
 
 export const checkIfRoomExists = async (roomId) => {
   const response = await axios.get(
-    `http://localhost:5000/api/room-exists?roomId=${roomId}`
+    `https://teams-video-chat-application.herokuapp.com/api/room-exists?roomId=${roomId}`
   );
   return response.data.roomExists;
 };
@@ -34,7 +34,7 @@ export const checkIfRoomExists = async (roomId) => {
 export const getTokenFromTwilio = async (setAccessToken, identity) => {
   const randomId = uuidv4();
   const response = await axios.get(
-    `http://localhost:5000/api/token-service?identity=${randomId}${identity}`
+    `https://teams-video-chat-application.herokuapp.com/api/token-service?identity=${randomId}${identity}`
   );
   const data = response.data;
   if (data.accessToken) {

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import ScreenSharingImg from "../../resources/switchToScreenSharing.svg";
+import ScreenSharingImg from "../../resources/screenshare3.svg";
 import { LocalVideoTrack } from "twilio-video";
 import LocaLScreenSharingPreview from "./LocalScreenSharingPreview";
 const ScreenSharingButton = ({ room }) => {
