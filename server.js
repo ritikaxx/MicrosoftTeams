@@ -7,11 +7,11 @@ app.use(cors());
 app.get('/',(req,res)=>{
   res.send("Server is running");
 })
-
-const twilioAccountSid = "ACa6c1e7f510adc0859404536f8703d316";
-const twilioAuthToken = "f1e86eb22bebffad6a9207e67f2f15ff";
-const twilioApiKey = "SKbb26db56ee8a89789488e5cf6319560d";
-const twilioApiSecret = "ZdU5jq0Vj4lVjpqYteDinHQ0ts060ZSX";
+// please enter your twilio account details below to test
+const twilioAccountSid = "Enter twilio account sid";
+const twilioAuthToken = "enter twilio auth token";
+const twilioApiKey = "enter twilio api key";
+const twilioApiSecret = "enter twilio api secret";
 
 app.get("/api/token-service", (req, res) => {
   const AccessToken = require("twilio").jwt.AccessToken;
