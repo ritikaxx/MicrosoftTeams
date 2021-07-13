@@ -55,3 +55,7 @@ https://www.canva.com/design/DAEgNZdHGcE/eaaHTxWZz3lDQzKnQ7dMBg/view?utm_content
 
 ## VIDEO DEMO LINK-
 https://www.youtube.com/watch?v=PS9e5nfj1Og
+
+## Running on Local Server
+
+<div> npm install </div>
