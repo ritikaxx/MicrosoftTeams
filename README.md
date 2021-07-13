@@ -62,8 +62,6 @@ https://www.youtube.com/watch?v=PS9e5nfj1Og
 
 npm install  
 
-npm start
-
 2)Client Side- Install the dependencies
 
 npm install
