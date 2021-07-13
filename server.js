@@ -9,7 +9,7 @@ http.use(cors());
 http.get('/',(req,res)=>{
   res.send("Server is running");
 })
-// please enter your twilio account details below to test
+
 const twilioAccountSid = "Enter twilio account sid";
 const twilioAuthToken = "enter twilio auth token";
 const twilioApiKey = "enter twilio api key";
