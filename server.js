@@ -1,10 +1,12 @@
 const express = require("express");
 const path = require("path");
 const cors = require("cors");
-const app = express();
-app.use(cors());
+var app = require('express')();
+var http = require('http').createServer(app);
+var io = require('socket.io')(http);
+http.use(cors());
 
-app.get('/',(req,res)=>{
+http.get('/',(req,res)=>{
   res.send("Server is running");
 })
 // please enter your twilio account details below to test
@@ -13,7 +15,7 @@ const twilioAuthToken = "enter twilio auth token";
 const twilioApiKey = "enter twilio api key";
 const twilioApiSecret = "enter twilio api secret";
 
-app.get("/api/token-service", (req, res) => {
+http.get("/api/token-service", (req, res) => {
   const AccessToken = require("twilio").jwt.AccessToken;
 
   const VideoGrant = AccessToken.VideoGrant;
@@ -38,7 +40,7 @@ app.get("/api/token-service", (req, res) => {
   });
 });
 
-app.get("/api/room-exists", (req, res) => {
+http.get("/api/room-exists", (req, res) => {
   const { roomId } = req.query;
 
   const client = require("twilio")(twilioAccountSid, twilioAuthToken);
@@ -66,10 +68,19 @@ app.get("/api/room-exists", (req, res) => {
     });
 });
 
+io.on('connection', (socket)=> {
+  console.log('User Online');
 
-const PORT = process.env.PORT || 5000;
+  socket.on('canvas-data', (data)=> {
+        socket.broadcast.emit('canvas-data', data);
+        
+  })
+})
 
-app.listen(PORT, () => {
+
+var PORT = process.env.YOUR_PORT ||process.env.PORT || 5000;
+
+http.listen(PORT, () => {
   console.log("server started");
   console.log(`Listening at port ${PORT}`);
 });

@@ -21,7 +21,7 @@ const JoinRoomPage = (props) => {
   const [showLoading, setShowLoading] = useState(false);
 
   return (
-    <div className="join_room_page_container">
+    <div className="join_room_page_container1">
       <div className="join_room_page_panel">
         <JoinRoomTitle isRoomHost={isRoomHost}></JoinRoomTitle>
         <JoinRoomContent setShowLoading={setShowLoading}></JoinRoomContent>

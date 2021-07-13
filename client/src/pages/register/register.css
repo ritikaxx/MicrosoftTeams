@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+.register {
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(66, 66, 66, 0.5),
+        rgba(63, 62, 62, 0.5)
+      ),
+      url("https://www.cpomanagement.ca/wp-content/uploads/2020/05/Condo-property-management-virtual-meetings.jpg");
+    background-size: cover;
+  }
+  
+  .registerTitle {
+    font-size: 82px;
+    font-weight: 600;
+    color:rgb(38, 38, 87);
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm > label {
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(38, 38, 87);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(38, 38, 87);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  

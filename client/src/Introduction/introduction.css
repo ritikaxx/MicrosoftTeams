@@ -1,10 +1,13 @@
+
 .group {
     align-items: flex-start;
     display: flex;
     min-width: 1544px;
+    background-color: #ae9eee;
+    height: 100vh;
   }
   .host-a-meeting {
-    background-color: #67b6ff ;
+    background-color: rgb(88, 49, 110) ;
     border-radius: 13px;
     color: black;
     font-family: Source Code pro;
@@ -17,13 +20,13 @@
     position: absolute;
     top: 493px;
     width: 309.19px;
-    height: 39.11;
+    height: 59.11;
   }
   .host-a-meeting:hover{
-    background-color: #3791e6;
+    background-color: #ae9eee;
   }
   .join-a-meeting {
-    background-color: #c9bcfb ;
+    background-color: rgb(88, 49, 110) ;
     color: black;
     border: none;
     border-radius: 13px;
@@ -36,7 +39,7 @@
     position: absolute;
     top: 407px;
     width: 309.19px;
-    height: 39.11;
+    height: 59.11;
   }
   .join-a-meeting:hover{
     background-color: #ae9eee ;
@@ -46,41 +49,10 @@
     position: relative;
     width: 1530px;
   }
-  .rectangle-1 {
-    background-color: 
-  #00b0fc;
-    height: 231px;
-    left: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 0;
-    width: 127%;
-    
-  }
-  .rectangle-2 {
-    background-color: 
-  #203140;
-    height: 725px;
-    left: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 231px;
-    width: 127%;
-  }
-  .rectangle-3 {
-    background-color: 
-  #263747;
-    border-radius: 30px;
-    height: 470px;
-    left: 99px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 165px;
-    width: 1353px;
-  }
+ 
   .rectangle-4 {
     background-color: 
-  #1cb6fa;
+    #746eaf;
     border-radius: 11px;
     height: 432px;
     left: 168px;
@@ -89,16 +61,10 @@
     top: 203px;
     width: 548px;
   }
-  .rectangle-5 {
-    background-color: 
-  #1c2b38;
-    border-radius: 30px;
-    height: 481px;
-    left: 92px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 160px;
-    width: 1366px;
+  .left1{
+    margin-top: 130px;
+    margin-left:50px ;
+    background-color: #ae9eee;
   }
   .rectangle-6 {
     background-color: 
@@ -122,67 +88,6 @@
     top: 487px;
     width: 309px;
   }
-  .text-1 {
-    color: white;
-    font-family: Source Code pro;
-    font-weight: 400;
-    font-size: 22px;
-    left: 978px;
-    letter-spacing: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 267px;
-    width: 311px;
-  }
-  .text-2 {
-    color: white;
-    font-family: Source Code pro;
-    font-weight: 400;
-    font-size: 22px;
-    left: 978px;
-    letter-spacing: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 305px;
-    width: 311px;
-  }
-  .text-3 {
-    color: 
-  #2f489f;
-    font-family: Source Code Pro;
-    font-size: 22px;
-    font-weight: 500;
-    left: 198px;
-    letter-spacing: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 400px;
-    width: 234px;
-  }
-  .text-4 {
-    color: white;
-    font-family: Roboto;
-    font-size: 35px;
-    font-weight: 600;
-    left: 903px;
-    letter-spacing: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 214px;
-    width: 492px;
-  }
-  .title {
-    color: 
-  #252862;
-    font-family: Roboto Mono;
-    font-size: 50px;
-    font-weight: 500;
-    left: 198px;
-    letter-spacing: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 300px;
-    width: 491px;
-  }
+ 
   
   @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500|Roboto+Mono:500|Roboto:700");

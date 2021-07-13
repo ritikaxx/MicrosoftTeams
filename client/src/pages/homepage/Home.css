@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.Home{
+    height: calc(100vh);
+    background:linear-gradient(
+        rgba(34, 34, 34, 0.5),
+        rgba(56, 56, 56, 0.5)
+      );
+    background-size: cover;
+    animation: image 5s infinite alternate;
+}
+
+  
+  @keyframes image {
+    0% {
+      background-image: url('https://www.inside.unsw.edu.au/sites/default/files/article/nexon_cloud_calling_hero_v4.png');
+      
+    }
+    50%{
+        background-image: url('https://d3hjf51r9j54j7.cloudfront.net/wp-content/uploads/sites/9/2020/07/Microsoft-Teams-rooms-620x330-1.jpg');
+    }
+    100% {
+      background-image: url('https://www.slashgear.com/wp-content/uploads/2020/04/microsoft_teams_main.jpg');
+    }
+  }
+.joinButton{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 16px 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 650px;
+    left: 750px;
+    transition: .3s all;
+    font-family: 'Roboto', sans-serif;
+}
+
+.joinButton:hover{
+    background: #fff;
+    color:  #373B44;
+}
+
+.joinButton:hover:after{
+   transform: translateY(-5px)
+}
+
+.joinButton:hover:before{
+    transform: translateY(5px)
+}
+
+.joinButton:after {
+    background-image: linear-gradient(to right top, #c0d733, #b0d744, #a2d653, #94d461, #88d26e, #78d17c, #69d089, #5bce95, #44cda7, #31cbb6, #28c8c4, #30c4ce);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -10px;
+    transition: .3s all;
+}
+
+.joinButton:before {
+    background-image: linear-gradient(to right top, #c0d733, #b0d744, #a2d653, #94d461, #88d26e, #78d17c, #69d089, #5bce95, #44cda7, #31cbb6, #28c8c4, #30c4ce);width: 100%;
+    height: 2px;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    transition: .3s all;;
+}
+
+.Member{
+    position: absolute;
+    margin-top: 20px;
+    top: 700px;
+    left: 720px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+span{
+    color:#28c8c4;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
+
+.joinContent{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    width: 410px;
+    font-size: 3.2rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h4{
+    color: turquoise;
+    font-family: "Poppins", sans-serif;
+}

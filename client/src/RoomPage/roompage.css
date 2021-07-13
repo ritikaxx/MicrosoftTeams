@@ -16,16 +16,16 @@
   
   .chat_label_container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     
   }
   
   .chat_label_paragraph {
-    font-weight: 700;
+    font-weight: bold;
     color: #9ca5ab;
-    margin-left: 40px;
-    font-size: 16px;
+    margin-left: 120px;
+    font-size: 26px;
   }
   
   .new_message_container {
@@ -39,13 +39,13 @@
   }
   
   .new_message_input {
-    border: 1px solid #14b664;
+    border: 1px solid rgb(88, 49, 110);
     border-radius: 60px;
     padding: 0 20px;
     height: 60px;
     font-size: 16px;
     width: 75%;
-    box-shadow: 2px 2px 2px #14b664;
+    box-shadow: 2px 2px 2px rgb(88, 49, 110);
     background-color: #1b1b20;
     color: white;
   }
@@ -84,19 +84,19 @@
   }
   
   .message_left_styles {
-    background-color: #c0b5e9;
-    color: black;
+    background-color: rgb(88, 49, 110);;
+    color: white;
   }
   
   .message_right_styles {
-    background-color: #68b6ff ; 
-    color: black;
+    background-color: rgb(88, 49, 110); ; 
+    color: white;
   }
   
   .message_title {
     margin: 0 0 10px 0;
     padding: 0 10px;
-    color: #14b664;
+    color: rgb(88, 49, 110);
     font-size: 16px;
     font-weight: 500;
     display: block;
@@ -131,7 +131,7 @@
   .overlay_container {
     width: 100%;
     height: 100vh;
-    background: rgba(0, 82, 201, 0.7);
+    background: rgb(88, 49, 110);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,10 +197,10 @@
   }
   
   .participants_label_paragraph {
-    font-weight: 700;
+    font-weight: bold;
     color: #9ca5ab;
-    margin-left: 40px;
-    font-size: 16px;
+    margin-left: 80px;
+    font-size: 26px;
   }
   
   .local_screen_share_preview {
@@ -209,7 +209,7 @@
     height: 90%;
     background-color: black;
     border-radius: 8px;
-    border: 2px solid blue;
+    border: 2px solid rgb(88, 49, 110);;
     left: 1%;
     bottom: 1%;
     display: flex;
@@ -226,7 +226,7 @@
     position: absolute;
     left: 20%;
     bottom: 0;
-    background: linear-gradient(168.68deg, #0052c9 1.12%, #0a91db 100%);
+    background: rgb(88, 49, 110);;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
   }
@@ -245,7 +245,7 @@
   }
   
   .video_button_image:hover {
-    background: rgb(19,68,231);
+    background: rgb(88, 49, 110);
     padding: 10px;
     border-radius: 25px;
   }
@@ -331,7 +331,7 @@
     color: white;
     margin-top: 0;
     padding: 18px 38px;
-    background: linear-gradient(168.68deg, #0052c9 1.12%, #0a91db 100%);
+    background:rgb(88, 49, 110);;
     border-radius: 0px 0px 15px 15px;
   }
   

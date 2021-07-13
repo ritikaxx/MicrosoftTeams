@@ -1,4 +1,4 @@
-.join_room_page_container {
+.join_room_page_container1 {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: center;
     position: relative;
     background-color: 
-    #00b0fc;
+    #ae9eee
   }
   
   .join_room_page_panel {
@@ -17,7 +17,7 @@
     width: 400px;
     height: 400px;
     background-color: 
-    #263747;
+    rgb(88, 49, 110);
     border: 3px solid rgb(20, 17, 17);
     border-radius: 30px;
     display: flex;
@@ -64,7 +64,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 82, 201, 0.7);
+    background: #ae9eee;
   }
   
   .loading_overlay_loader {
@@ -95,7 +95,7 @@
   .checkbox_connection {
     width: 25px;
     height: 25px;
-    background: #2d8cff;
+    background: #ae9eee;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     backdrop-filter: blur(80px);
@@ -141,7 +141,7 @@
     width: 80px;
     margin-right: 15px;
     height: 30px;
-    background-color: #2d8cff;
+    background-color: #ae9eee;
     border-radius: 8px;
     border: none;
     font-weight: 700;

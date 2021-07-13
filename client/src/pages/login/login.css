@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+*{
+    font: 'poppins';
+}
+.Login {
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(68, 67, 67, 0.5),
+        rgba(66, 66, 66, 0.5)
+      ),
+      url("https://mcgrawhillprofessionalbusinessblog.com/wp-content/uploads/2020/04/Best-Practices-for-Successful-Virtual-Meetings.jpg");
+    background-size: cover;
+    
+  }
+
+.loginTitle {
+    font-size: 82px;
+    font-weight: 600;
+    color:rgb(38, 38, 87);
+    
+	
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+      font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(38, 38, 87);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 173);
+  }
+  
+  .loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(38, 38, 87);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+
+ 
+  
+
+

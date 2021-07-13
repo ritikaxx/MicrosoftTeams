@@ -12,24 +12,45 @@ const IntroductionPage = (props) => {
   }, []);
   return (
     <div className="group">
-      <div className="overlap-group">
-        <div className="rectangle-1"></div>
-        <div className="rectangle-2"></div>
-        <div className="rectangle-5"></div>
-        <div className="rectangle-3"></div>
-        <div className="text-1 ">You can host a meeting</div>
-        <div className="text-2 ">You can Join a meeting</div>
-        <div className="rectangle-4"></div>
-        <div className="text-3">
-          Stay connected
-          <br />
-          Stay united
-        </div>
-        <h1 className="title">Microsoft Teams</h1>
-        <div className="text-4">Welcome to Microsoft Teams</div>
+      
+        
+        
+        <div className="left1">
+            <div id="container">
+              <div class="product-details">
+                <h1>Start an Instant Meeting</h1>
+                <br />
+                <p class="information"><br /> Connect with your friends and family with just a click instantly!</p>
+                <div class="control">
+                  <button class="btn1">
+
+                    <span class="buy">Video Call</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-image">
+                <img src="https://www.avepoint.com/blog/wp-content/uploads/2020/06/web-design-development-concept-vector-illustration-vector-id1169592004.jpg" />
+                <div class="info">
+                  <h2>Features we provide</h2>
+                  <ul>
+                    <li><strong>Screen Share: </strong>Work Together</li>
+                    <li><strong>Waiting Room: </strong>Customize</li>
+                    <li><strong>Record:</strong>Busy Schedule</li>
+                    <li><strong>Chat: </strong>Relax</li>
+                    <li><strong>Group Calls: </strong>Plan Together</li>
+
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        
+        
+
         <ConnectionButtons></ConnectionButtons>
       </div>
-    </div>
+    
   );
 };
 
